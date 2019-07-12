@@ -33,7 +33,6 @@ address{
 }
 
 .container-sobre{
-    /* border: 1px solid red; */
     width: 520px;
     font-family: 'Economica', sans-serif;
     z-index: 2;
@@ -52,25 +51,11 @@ address{
 .color-blue{
  color: #3498db;
 }
-/* 
-.container-sobre .title{
-    font-size: 48px;
-}
-
-.container-sobre .subtitle, .container-sobre .contato{
-    font-size: 32px;
-} */
 
 .img{
     width: 450px;
     height: auto;
-    /* filter: invert(100%); */
-
-    /* animation: gira 2s linear infinite;    */
     opacity: 0.0700;
-    /* display: none; */
-
-
 }
 
 .container-logo{
@@ -79,10 +64,4 @@ address{
     left: 50%;
     transform: translate(-50%,-50%);
     z-index: 1;
-}
-
-@keyframes gira {
-    to {
-        transform: rotate(360deg);
-    }
 }
